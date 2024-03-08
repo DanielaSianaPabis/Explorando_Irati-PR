@@ -6,9 +6,10 @@ body {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #8b1f1f;
+    background-color: aqua;
 }
 
-.parallax {
+.fundo_index {
     /*position: relative;
     background-image:  url("../img/parallax_index.jpg");
     height: 100%;
@@ -78,3 +79,62 @@ body {
     width: 20%;
     height: 43%;
 }
+
+.fundo_historia {
+    position: relative;
+    background: rgb(255, 249, 216);
+    background-image: url("../img/fundo_historia.jpg"); /* Imagem de fundo */
+    background-position: center; /* Posição da imagem de fundo */
+    background-size: cover; /* Tamanho da imagem de fundo */
+    background-attachment: fixed; /* Fixar a imagem de fundo */
+    height: 100vh;
+    display: inline-block;
+    justify-content: center;
+}
+
+#titulo_historia {
+    position: absolute;
+    top: 5%;
+    left: 33%;
+    width: 30%;
+    height: 35%;
+    align-items: center;
+    
+    
+}
+
+#paragrafo_historia {
+    top: 50%;
+    padding: 30px;
+    margin-top: 260px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(133, 92, 78, 0.557);
+    text-align: justify;
+}
+
+#seta {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 3.7%;
+}
+
+#fundo_educacao {
+    background-color: #fff0a5;
+}
+
+#titulo_educacao {
+    position: absolute;
+    top: 5%;
+    left: 33%;
+    width: 30%;
+    height: 35%;
+    align-items: center;
+}
+
+
+
+
