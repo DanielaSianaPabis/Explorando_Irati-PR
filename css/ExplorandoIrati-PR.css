@@ -19,29 +19,62 @@ body {
     background-size: cover; */
 
     position: relative;
-    background: rgba(255, 240, 165);
-    opacity: 0.4; /* Cor de fundo amarela com 40% de opacidade */
-    background-image: url("../img/parallax_index.jpg"); /* Imagem de fundo */
+    background: rgb(255, 249, 216);
+    background-image: url("../img/fundo_index.png"); /* Imagem de fundo */
     background-position: center; /* Posição da imagem de fundo */
     background-size: cover; /* Tamanho da imagem de fundo */
     background-attachment: fixed; /* Fixar a imagem de fundo */
     height: 100vh;
     display: flex;
-    
-    
-    
-
-
-}
-.parallax .elementos {
-    position: absolute; /* Posição absoluta para posicionar a imagem */
-    top: 2%; /* Distância do topo */
-    left: 1%; /* Distância da esquerda */
-    width: 20%; /* Largura da imagem */
-    height: auto; /* Altura ajustada automaticamente para manter a proporção */
-    z-index: 2; 
 }
 
-.elementos #historia {
-    align-items: center;
+#logo {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    width: 40%;
+    height: 20%;
+}
+
+#direitos_do_site{
+    position: absolute;
+    top: 9%;
+    right: 36.5%;
+     
+}
+
+#sobre_a_autora {
+    position: absolute;
+    top: 9%;
+    right: 20%;
+}
+
+#fale_conosco{
+    position: absolute;
+    top: 9%;
+    right: 5%;
+}
+
+#turismo {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 20%;
+    height: 43.5%;
+}
+
+#historia{
+    position: absolute;
+    top:50%;
+    left:40%;
+    width: 20%;
+    height: 43%;
+}
+
+#educacao {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 20%;
+    height: 43%;
 }
