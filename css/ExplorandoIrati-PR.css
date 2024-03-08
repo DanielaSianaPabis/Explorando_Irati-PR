@@ -99,8 +99,6 @@ body {
     width: 30%;
     height: 35%;
     align-items: center;
-    
-    
 }
 
 #paragrafo_historia {
@@ -122,8 +120,8 @@ body {
     width: 3.7%;
 }
 
-#fundo_educacao {
-    background-color: #fff0a5;
+.fundo_educacao {
+
 }
 
 #titulo_educacao {
