@@ -27,8 +27,21 @@ body {
     background-attachment: fixed; /* Fixar a imagem de fundo */
     height: 100vh;
     display: flex;
-    justify-content: center;
+    
+    
+    
+
+
+}
+.parallax .elementos {
+    position: absolute; /* Posição absoluta para posicionar a imagem */
+    top: 2%; /* Distância do topo */
+    left: 1%; /* Distância da esquerda */
+    width: 20%; /* Largura da imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    z-index: 2; 
+}
+
+.elementos #historia {
     align-items: center;
-
-
 }
