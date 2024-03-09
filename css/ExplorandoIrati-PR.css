@@ -1,12 +1,12 @@
 body {
     /*height: 100%;
     margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;*/
+    font: 400 15px/1.8 "Lato", sans-serif;*/
+    color: rgba(233, 71, 17, 0.557);
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
-    color: #8b1f1f;
-    background-color: aqua;
+    
+    background-color: #fff0a5cf;
 }
 
 .fundo_index {
@@ -33,26 +33,26 @@ body {
     position: absolute;
     top: 2%;
     left: 1%;
-    width: 40%;
-    height: 20%;
+    width: 35.9%;
+    height: 18%;
 }
 
 #direitos_do_site{
     position: absolute;
-    top: 9%;
+    top: 8%;
     right: 36.5%;
      
 }
 
 #sobre_a_autora {
     position: absolute;
-    top: 9%;
+    top: 8%;
     right: 20%;
 }
 
 #fale_conosco{
     position: absolute;
-    top: 9%;
+    top: 8%;
     right: 5%;
 }
 
@@ -121,17 +121,69 @@ body {
 }
 
 .fundo_educacao {
+    background-color: #53492C;
+    border:1px solid #53492C;
+    margin-top: 14%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border-radius: 30px;
 
 }
 
 #titulo_educacao {
     position: absolute;
-    top: 5%;
-    left: 33%;
-    width: 30%;
-    height: 35%;
+    top: 3%;
+    left: 37%;
+    width: 27%;
+    height: 25%;
     align-items: center;
+    
 }
+
+#educacao_florestal {
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    width: 66%;
+    height: 85%;
+}
+
+#educacao_ifpr {
+    position: absolute;
+    top: 135%;
+    left: 17%;
+    width: 66%;
+    height: 85%;
+}
+
+#educacao_unicentro {
+    position: absolute;
+    top: 230%;
+    left: 17%;
+    width: 66%;
+    height: 85%;
+}
+
+#educacao_demais {
+    position: absolute;
+    top: 325%;
+    left: 17%;
+    width: 66%;
+    height: 85%;
+}
+.final {
+    
+    margin-top: 232.5%;
+    
+}
+
+.voltar_topo {
+    position: fixed;
+    left: 90%;
+    top: 80%;
+
+}
+
 
 
 
