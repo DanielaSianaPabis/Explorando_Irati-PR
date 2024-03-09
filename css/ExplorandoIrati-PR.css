@@ -1,32 +1,18 @@
 body {
-    /*height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;*/
+    font: 400 15px/1.8 "Lato", Arial, Helvetica, sans-serif;
     color: rgba(233, 71, 17, 0.557);
     margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    
     background-color: #fff6cccf;
 }
 
 .fundo_index {
-    /*position: relative;
-    background-image:  url("../img/parallax_index.jpg");
-    height: 100%;
-    opacity: 0.65;
-    background-attachment: fixed; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; */
-
     position: relative;
     background: rgb(255, 249, 216);
-    background-image: url("../img/fundo_index.png"); /* Imagem de fundo */
-    background-position: center; /* Posição da imagem de fundo */
-    background-size: cover; /* Tamanho da imagem de fundo */
-    background-attachment: fixed; /* Fixar a imagem de fundo */
+    background-image: url("../img/fundo_index.png"); 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed;
     height: 100vh;
-    display: flex;
 }
 
 #logo {
@@ -37,11 +23,10 @@ body {
     height: 18%;
 }
 
-#direitos_do_site{
+#direitos_do_site {
     position: absolute;
     top: 8%;
-    right: 36.5%;
-     
+    right: 36.5%;   
 }
 
 #sobre_a_autora {
@@ -83,10 +68,10 @@ body {
 .fundo_historia {
     position: relative;
     background: rgb(255, 249, 216);
-    background-image: url("../img/fundo_historia.jpg"); /* Imagem de fundo */
-    background-position: center; /* Posição da imagem de fundo */
-    background-size: cover; /* Tamanho da imagem de fundo */
-    background-attachment: fixed; /* Fixar a imagem de fundo */
+    background-image: url("../img/fundo_historia.jpg"); 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
     height: 100vh;
     display: inline-block;
     justify-content: center;
@@ -98,7 +83,6 @@ body {
     left: 33%;
     width: 30%;
     height: 35%;
-    align-items: center;
 }
 
 #paragrafo_historia {
@@ -107,17 +91,9 @@ body {
     margin-top: 290px;
     margin-right: 50px;
     margin-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: rgba(133, 92, 78, 0.703);
     text-align: justify;
-}
-
-#seta {
-    position: absolute;
-    top: 5%;
-    left: 2%;
-    width: 3.7%;
 }
 
 .fundo_educacao {
@@ -127,7 +103,10 @@ body {
     margin-left: 12.5%;
     margin-right: 12.5%;
     border-radius: 30px;
+}
 
+.final_pagina_educacao { 
+    margin-top: 232.5%; 
 }
 
 #titulo_educacao {
@@ -135,9 +114,7 @@ body {
     top: 3%;
     left: 37%;
     width: 27%;
-    height: 25%;
-    align-items: center;
-    
+    height: 25%; 
 }
 
 #educacao_florestal {
@@ -171,25 +148,13 @@ body {
     width: 66%;
     height: 85%;
 }
-.final {
-    
-    margin-top: 232.5%;
-    
-}
-
-.voltar_topo {
-    position: fixed;
-    left: 90%;
-    top: 80%;
-
-}
 
 #titulo_turismo {
     position: absolute;
     top: 1px;
     left: 34%;
-    width: 33%;
-    height: 52%;
+    width: 37%;
+    height: 55%;
 }
 
 .fundo_turismo {
@@ -201,7 +166,7 @@ body {
     border-radius: 25px;
 }
 
-.final_pagina {
+.final_pagina_turismo {
     margin-top: 239%;
 }
 
@@ -236,6 +201,18 @@ body {
     height: 75%;
 }
 
+#seta {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 3.7%;
+}
+
+.voltar_topo {
+    position: fixed;
+    left: 90%;
+    top: 86%;
+}
 
 
 
